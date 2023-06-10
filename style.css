@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+.nvbar{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+nav ul{
+    overflow: auto;
+}
+
+nav li{
+    margin: 5px 5px;
+    color: aliceblue;
+    float: left;
+    list-style: none;
+}
+
+nav li a{
+    padding-left: 8px;
+    text-decoration: none;
+    color: aliceblue;
+    border-left: 2px solid whitesmoke;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+#restartBtn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: aliceblue;
+}
+
+#restartBtn:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px rgb(91, 226, 226);
+    ;
+}
